@@ -8,19 +8,39 @@
     color: #243363;
 }
 
-section {
-    padding: 32px;
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
-.nav__row {
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 0 32px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    padding-top: 32px;
+}
+
+.row__nav__row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
 }
 
 .nav__logo {
   display: flex;
   align-items: center;
+  margin: 8px 0;
+  padding-bottom: 4px;
 }
 
 .nav__logo--img {
@@ -36,9 +56,7 @@ section {
 }
 
 .nav__links {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+     
 }
 
 .nav__link {
@@ -46,5 +64,9 @@ section {
   font-weight: 600;
   letter-spacing: 0.35px;
   text-decoration: none;
+}
+
+.nav__link--login {
+    margin-left: 48px;
 }
 
