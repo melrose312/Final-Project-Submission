@@ -17,6 +17,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
 }
 
 h1 {
-   font-size: 36px;
+   font-size: 48px;
    color: #1a202c;
    line-height: 1.25 ; 
 }
@@ -38,9 +39,7 @@ p {
    line-height: 1.5; 
 }
 
-img {
-    width: 100%;
-}
+
 
 
 
@@ -164,16 +163,19 @@ header .row {
 }
 
 .header__customers--logo {
-   margin-top: 16px; 
+   margin-top: 16px;
+   padding-right: 64px;
+   height: 35px;
+   opacity: 0.5;
+
 }
 
 .header__img--wrapper {
-  width: 60%; 
-  display: flex;
-  
+  width: calc(100% - 40%);
+ 
 }
 
 .header--img {
   width: 100%;
-  max-width: 500px;
+  max-width: 768px;
 }
