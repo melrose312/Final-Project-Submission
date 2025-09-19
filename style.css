@@ -166,3 +166,14 @@ header .row {
 .header__customers--logo {
    margin-top: 16px; 
 }
+
+.header__img--wrapper {
+  width: 60%; 
+  display: flex;
+  
+}
+
+.header--img {
+  width: 100%;
+  max-width: 500px;
+}
